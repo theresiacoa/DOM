@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     var offset = 0;
     gameTimer = setInterval(function () {
-      document.getElementsByTagName('body')[0].style.backgroundPosition = 'left ' + offset + 'px center';
+      document.getElementsByTagName('body')[0].style.backgroundPosition = 'left ' + offset + 'px top 180px';
       offset -= 3;
     }, 70);
     jumpRollAnimation();
