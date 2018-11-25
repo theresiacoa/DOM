@@ -10,7 +10,7 @@ body {
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 385px;
+  top: 48.5%;
   left: 0;
   transform: rotateY(180deg);
 }
